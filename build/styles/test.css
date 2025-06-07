@@ -1,0 +1,1051 @@
+/*Main/Desktop view start*/
+
+/*Font styling start*/
+.logo>h1>a {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #1D1D1F;
+    text-decoration: none;
+}
+
+.link {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}
+
+div.nav>nav>a {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #1D1D1F;
+    text-decoration: none;
+}
+
+.eyebrow-section {
+
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.headline-section {
+    padding-top: 20px;
+    font-family: Inter;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.intro-copy {
+    padding-top: 48px;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.subsection-headline {
+    width: 35%;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+
+.subsection-copy {
+    width: 65%;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+figure.badge>div>span:nth-child(1) {
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.04em;
+
+    color: #6189EF;
+}
+
+span.badge-value {
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: -0.02em;
+}
+
+figure.badge>div>span:nth-child(5) {
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+}
+
+div.copy-block>h3 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+div.copy-block>p {
+    margin-top: 20px;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+}
+
+.typography-title {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #1D1D1F;
+}
+
+.typography-headline {
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #1D1D1F;
+    padding-top: 20px;
+}
+
+.typography-intro {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #86868B;
+    padding-top: 40px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.icon-copy {
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+#footnote-0 {
+    list-style-type: none;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #6E6E73;
+}
+
+#footnote-1 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #6E6E73;
+}
+
+.footer-legal-copyright {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #6E6E73;
+}
+
+/*Font styling end*/
+
+#main {
+    background-color: #091119;
+}
+
+.section {
+    padding-left: 266px;
+    padding-right: 266px;
+    display: flex;
+    flex-direction: column;
+    /*to make sure block displays up to down instead of left to right*/
+    align-items: center;
+    /*to make sure blocks aligns center of page*/
+
+}
+
+#site-header-mobile {
+    /*hide mobile nav bar on desktop view*/
+    display: none;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    background-color: #ffffff !important;
+    height: 60px;
+    align-items: center;
+}
+
+.logo {
+    width: 35%;
+
+}
+
+.nav {
+
+    width: 65%;
+}
+
+.hero-image {
+    /*Change to background image instead for simpler implementation*/
+    background: url("hero_large.jpg");
+    background-color: transparent;
+    height: 740px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.section-content {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    width: 980px;
+    /*to make sure text copy does not stretch when zooming out*/
+
+}
+
+
+
+.telescope-img-mobile {
+    /*hide mobile image size on desktop view*/
+    display: none;
+}
+
+.telescope-img-tablet {
+    /*hide tablet image size on desktop view*/
+    display: none;
+}
+
+.section-features {
+    text-align: center;
+}
+
+.telescopes-copy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    color: #ffffff;
+    padding-top: 64px;
+}
+
+.badge-container {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding-top: 48px
+}
+
+.hires-imaging {
+    margin-top: 140px;
+}
+
+.satellite-mobile {
+    /*hide mobile image size on desktop view*/
+    display: none;
+}
+
+.satellite-tablet {
+    /*hide tablet image size on desktop view*/
+    display: none;
+}
+
+.subsection.telescopes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #ffffff;
+    flex-direction: column;
+    /*to make sure block displays image up and text down*/
+    align-items: center;
+    /*to make sure block aligns center of page*/
+}
+
+.subsection {
+    display: flex;
+    flex-wrap: nowrap;
+    color: #ffffff;
+    width: 980px;
+    /*to make sure text copy does not stretch when zooming out*/
+}
+
+.copy-block {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+.hires-imaging>div.copy-block.copy-block-feature {
+    padding-right: 82px;
+}
+
+.networks>div.copy-block.copy-block-feature {
+    padding-left: 82px;
+}
+
+.picture-container {
+    width: 40%;
+}
+
+.circle-img {
+    border-radius: 50%;
+}
+
+.circle-img-tablet {
+    display: none;
+}
+
+.circle-img-mobile {
+    display: none;
+}
+
+.subsection.navigation {
+    /*Change to background image instead for simpler implementation*/
+    background: url("moon_large.jpg");
+    background-color: none;
+    height: 940px;
+    width: 940px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.subsection.navigation>div {
+    display: flex;
+    width: 55%;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+}
+
+.subsection.navigation>div>p>sup>a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.navigation-mobile {
+    /*hide mobile section on desktop view*/
+    display: none;
+}
+
+.cta {
+    background-color: #ffffff;
+}
+
+
+.row {
+    justify-content: center;
+    text-align: center;
+}
+
+/*button styling start*/
+.icon-wrapper {
+    background: linear-gradient(270deg, #1655BA, #9851C4);
+    margin-top: 60px;
+    border-radius: 64px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 32px;
+}
+/*button styling end*/
+
+.icon {
+    padding-right: 10px;
+    padding-left: 32px;
+    vertical-align: bottom;
+}
+
+section.section.cta>div>a {
+    text-decoration: none;
+}
+
+
+.footnotes {
+    background-color: #ffffff !important;
+}
+
+section.footnotes {
+    width: 980px;
+}
+
+.footer-legal {
+    width: 980px;
+    margin-top: 40px;
+}
+
+/*Main/Desktop view end*/
+
+
+
+
+
+/* Mobile css starts here*/
+@media screen and (max-width: 734px) {
+
+    #site-header-mobile {
+        display: block;
+    }
+
+    #site-header {
+        display: none;
+    }
+
+
+    .hamburger,
+    .close {
+        border: none;
+        /* position absolute position the icons relative to the body because they have no position relative parents*/
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 36px;
+        height: 36px
+    }
+
+    .hamburger {
+        background: white;
+    }
+
+    .close {
+        right: 20px;
+    }
+
+    .hamburger img,
+    .close img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar {
+        position: absolute;
+        /* a higher z-index put navbar above hamburger */
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: -webkit-fill-available;
+        height: 30vh;
+        overflow: hidden;
+        list-style: none;
+        background: #ffffff;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding-left: 6.25%;
+        /* animate slide up/down */
+        transform: translateY(-100%);
+        transition: transform 0.2s ease;
+    }
+
+    /* :target is called when its anchor id #navbar is called by clicking on the hamburger which has href="#navbar" */
+    .navbar:target {
+        /* show navbar */
+        transform: translateY(0);
+        margin-top: 60px;
+    }
+
+
+
+    li a {
+        display: block;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;
+        /* remove default underline*/
+        text-decoration: none;
+        padding-bottom: 0.5rem;
+    }
+
+    .section {
+        padding-left: 6.25%;
+        padding-right: 6.25%;
+
+    }
+
+    .section-content {
+        padding-top: 80px;
+        padding-bottom: 60px;
+        width: 100%;
+    }
+
+    #site-header-mobile {
+        display: block;
+    }
+
+    .hero-image {
+        background: url("hero_small.jpg");
+        background-color: transparent;
+        height: 520px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .eyebrow-section {
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    }
+
+    .headline-section {
+        padding-top: 10px;
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: -0.04em;
+        text-align: left;
+    }
+
+    .intro-copy {
+        padding-top: 24px;
+        font-family: Inter;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    }
+
+    .section-features {
+        padding-bottom: 60px;
+
+    }
+
+    .telescope-img {
+        display: none;
+    }
+
+    .telescope-img-tablet {
+        display: none;
+    }
+
+    .telescope-img-mobile {
+
+        display: block !important;
+        margin-top: 80px;
+    }
+
+    figure.telescope-img-mobile>img {
+        width: 100%
+    }
+
+    .telescopes-copy {
+        padding-top: 32px;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .badge-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .badge {
+        width: calc(50% - 10px);
+        /* Two figures side by side */
+
+    }
+
+    .badge-aperture {
+        order: 1;
+        /* First figure */
+    }
+
+    .badge-resolution {
+        order: 2;
+        /* Second figure */
+    }
+
+    .badge-orbit {
+        width: 100%;
+        /* Full width for third figure */
+        order: 3;
+        /* Third figure */
+        padding-top: 32px;
+    }
+
+
+    .subsection-headline {
+        width: 100%;
+        font-family: Inter;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: -0.04em;
+        text-align: left;
+
+    }
+
+    .subsection-copy {
+        padding-top: 20px;
+        width: 100%;
+        font-family: Inter;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: -0.02em;
+        text-align: left;
+
+    }
+
+    figure.badge>div>span:nth-child(1) {
+        font-family: Inter;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: -0.04em;
+        text-align: left;
+
+    }
+
+    span.badge-value {
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: -0.02em;
+        text-align: left;
+
+    }
+
+    figure.badge>div>span:nth-child(5) {
+        font-family: Inter;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: -0.02em;
+        text-align: left;
+
+
+    }
+
+    .subsection {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: no-wrap;
+        align-items: center;
+        color: #ffffff;
+        width: 100%;
+    }
+
+    section.footnotes {
+        width: 100%;
+    }
+
+    .footer-legal {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .hires-imaging {
+        margin-top: 60px;
+        flex-direction: column-reverse;
+    }
+
+    .picture-container {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .circle-img {
+        display: none;
+    }
+
+    .circle-img-tablet {
+        display: none;
+    }
+
+    .circle-img-mobile {
+        display: block;
+    }
+
+    .hires-imaging>div.copy-block.copy-block-feature {
+        padding-right: 0px;
+    }
+
+    .networks>div.copy-block.copy-block-feature {
+        padding-left: 0px;
+    }
+
+    .copy-block {
+        width: 100%;
+    }
+
+    div.copy-block>h3 {
+        padding-top: 32px;
+        font-family: Inter;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    }
+
+    div.copy-block>p {
+        padding-top: 20px;
+        font-family: Inter;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: left;
+    }
+
+    .satellite {
+        display: none;
+    }
+
+
+    .satellite-mobile {
+        padding-top: 60px;
+        display: block;
+    }
+
+    .navigation {
+        display: none;
+
+    }
+
+
+    .navigation-mobile {
+        display: block;
+    }
+
+    .typography-title {
+        font-family: Inter;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: -0.02em;
+        text-align: center;
+
+    }
+
+    .typography-headline {
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: -0.04em;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .typography-intro {
+        font-family: Inter;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 20px;
+
+    }
+
+    section.section.cta>div {
+        padding-top: 60px;
+    }
+
+    .icon-wrapper {
+        margin-top: 40px;
+    }
+
+    .icon-copy {
+        font-family: Inter;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: -0.02em;
+        text-align: left;
+
+    }
+
+    .footnotes {
+        padding-top: 40px;
+    }
+
+    #footnote-1 {
+        padding-top: 10px;
+    }
+}
+
+/* Mobile css ends here*/
+
+
+
+
+
+
+/* Tablet css starts here*/
+@media screen and (min-width: 735px) and (max-width: 1068px) {
+    .section {
+        padding-left: 71px;
+        padding-right: 71px;
+
+    }
+
+    .hero-image {
+        height: auto;
+    }
+
+    .eyebrow-section {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .headline-section {
+        font-size: 80px;
+        line-height: 84px;
+    }
+
+    .intro-copy {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .telescope-img {
+        display: none;
+    }
+
+    .telescope-img-tablet {
+        display: block;
+    }
+
+    .telescope-img-mobile {
+        display: none;
+    }
+
+    .telescopes-copy {
+        flex-direction: column;
+        padding-top: 48px;
+    }
+
+    span.badge-value {
+        font-size: 48px;
+        line-height: 52px;
+    }
+
+    .hires-imaging {
+        margin-top: 100px;
+    }
+
+    div.copy-block>h3 {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    div.copy-block>p {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .hires-imaging>div.copy-block.copy-block-feature {
+        padding-right: 58px;
+    }
+
+    .picture-container {
+        width: 50%;
+    }
+
+    .copy-block {
+        width: 50%;
+    }
+
+    .circle-img {
+        display: none;
+    }
+
+    .circle-img-tablet {
+        display: block;
+        border-radius: 50%;
+    }
+
+    .circle-img-mobile {
+        display: none;
+    }
+
+    .satellite {
+        display: none;
+    }
+
+    .satellite-tablet {
+        display: block;
+    }
+
+    .satellite-tablet-mobile {
+        display: none;
+    }
+
+    .networks>div.copy-block.copy-block-feature {
+        padding-left: 58px;
+    }
+
+    #main>section.section.section-features>div.subsection.networks {
+        padding-top: 62px;
+    }
+
+    .subsection.navigation {
+        background: url("moon_medium.jpg");
+        background-color: none;
+        height: 692px;
+        width: 692px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .subsection.navigation>div {
+        width: 50%;
+        margin-bottom: 40px;
+    }
+
+    section.section.section-features {
+        padding-bottom: 100px;
+    }
+
+    .subsection {
+        width: 692px;
+    }
+
+    .section-content {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 692px;
+    }
+
+    .badge-container {
+        width: 692px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .subsection-headline {
+        width: 692px;
+        font-family: Inter;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: -0.04em;
+        text-align: left;
+
+    }
+
+    .subsection-copy {
+        padding-top: 20px;
+        width: 692px;
+        font-family: Inter;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: -0.02em;
+        text-align: left;
+
+    }
+
+    .typography-title {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .typography-headline {
+        font-size: 64px;
+        line-height: 68px;
+    }
+
+    .typography-intro {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .icon-wrapper {
+        margin-top: 40px;
+    }
+
+    section.footnotes {
+        width: 692px;
+    }
+
+    .footer-legal {
+        width: 692px;
+        margin-top: 40px;
+    }
+}
+
+/* Tablet css ends here*/
